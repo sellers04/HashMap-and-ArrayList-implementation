@@ -4,12 +4,17 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class Hashtable {
+import hashmap.HashtableList;
+import hashmap.HashtableMap;
+
+public class HashtableImpl implements HashtableMap, HashtableList {
 	private HashMap<Integer, String> map;
 	private List<String> arrList;
 	
 	
-	public Hashtable() {
+	
+	
+	public HashtableImpl() {
 		map = new HashMap<Integer, String>();
 		map.put(1, "this");
         map.put(2, "coder");

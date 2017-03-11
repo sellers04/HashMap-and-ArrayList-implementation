@@ -8,7 +8,7 @@ import java.util.List;
 import org.junit.Test;
 
 public class HashtableTest {
-	private Hashtable hashtable = new Hashtable();
+	private HashtableImpl hashtable = new HashtableImpl();
 	
 	
 	@Test
