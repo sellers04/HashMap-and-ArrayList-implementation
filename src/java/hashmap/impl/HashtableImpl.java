@@ -11,9 +11,6 @@ public class HashtableImpl implements HashtableMap, HashtableList {
 	private HashMap<Integer, String> map;
 	private List<String> arrList;
 	
-	
-	
-	
 	public HashtableImpl() {
 		map = new HashMap<Integer, String>();
 		map.put(1, "this");
